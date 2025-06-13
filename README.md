@@ -67,7 +67,7 @@ The project was built to provide a **visual, interactive simulation of load bala
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/network-load-balancer.git
+   git clone https://github.com/AbdMuh/network-load-balancer.git
    cd network-load-balancer
 # Network Load Balancer
 
