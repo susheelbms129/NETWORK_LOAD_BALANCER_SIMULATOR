@@ -1,79 +1,56 @@
-# Network Load Balancer Simulation
+Network Load Balancer Simulator
+A Python-based project that simulates how a network load balancer works by distributing client requests to multiple backend servers using different algorithms. It is designed to provide an interactive learning experience for understanding how load balancing improves performance and fault tolerance.
 
-A Python-based simulation of a Network Load Balancer that demonstrates traffic routing, failure handling, and server health monitoring using customizable load balancing strategies.
+Features
+Implements multiple load balancing algorithms:
 
-## 📌 Features
+Round Robin
 
-- 🔁 Load balancing using:
-  - Round Robin
-  - Least Connections
-  - IP Hashing
-- 🩺 Server health monitoring with periodic health checks
-- ⚠️ Simulated server failure and failover
-- 👥 Client request simulation
-- 🖥️ Interactive and modern web-based GUI (Flask + Tailwind)
-- 📜 Real-time logging and file-based logs
-- 🧵 Concurrency handled using Python threading
+Least Connections
 
-## 🎯 Motivation
+IP Hashing
 
-The project was built to provide a **visual, interactive simulation of load balancing** for academic and educational purposes. It aims to bridge the gap between theoretical networking concepts and their practical applications in modern distributed systems.
+Monitors server health and automatically handles failures
 
-## 🛠️ Technologies Used
+Simulates real-world scenarios of client request routing and server failover
 
-- **Python 3**
-  - `socket`, `threading`, `logging` (standard libraries)
-- **Flask** – for the backend web server
-- **HTML + Tailwind CSS** – for the frontend UI
-- **Concurrency** – via Python threading
-- **Logging** – both live and file-based logs
+Provides a simple web-based dashboard for live monitoring
 
-## 🧱 Project Structure & Modules
+Uses multithreading to handle concurrent client-server communication
 
-- **Traffic Distribution** using custom algorithms
-- **Server Failure Simulation** with control over failure rates
-- **Client Simulation** with configurable load
-- **Health Check Daemon** for backend server status
-- **GUI** to:
-  - Select algorithm
-  - Define number of servers/clients
-  - Tune failure and health check frequency
-  - View live logs and status
+Maintains real-time logs for traffic and server status
 
-## 🗓️ Development Timeline
+Motivation
+This project was developed as part of our academic work to gain a practical understanding of load balancing concepts. It bridges the gap between theoretical networking knowledge and its real-world applications in modern distributed systems.
 
-| Week | Work |
-|------|------|
-| 1    | Research on load balancing & architecture |
-| 2    | Basic request routing with Python threads |
-| 3    | Implement algorithms: Round Robin, Least Connections, IP Hash |
-| 4    | Add server health checks & failure simulation |
-| 5    | Build GUI with Flask + Tailwind |
-| 6    | Add logs, tuning options, delay control |
-| 7    | Final testing, cleanup & documentation |
+Technologies Used
+Python 3 for core simulation logic
 
-## ⚙️ Requirements
+Flask for the web interface
 
-### Software
-- Python 3.x
-- Flask
-- HTML + Tailwind (no build tools required)
+HTML + Tailwind CSS for the front-end UI
 
-### Hardware
-- Standard PC or laptop
-- OS: Windows/Linux/macOS
+Threading & Logging modules in Python for concurrency and monitoring
 
-## 🚀 How to Run
+How to Run
+Clone the repository
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/AbdMuh/network-load-balancer.git
-   cd network-load-balancer
-# Project Gallery
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/Network-Load-Balancer.git
+cd Network-Load-Balancer
+Install dependencies
 
-![image](https://github.com/user-attachments/assets/78d731db-811e-4c48-afba-76d30bcd19dd)
+bash
+Copy
+Edit
+pip install flask
+Run the application
 
-![image](https://github.com/user-attachments/assets/c7ade251-3f6b-445a-a806-b4168e456615)
-
-![image](https://github.com/user-attachments/assets/9c4d2925-f56d-4daa-8baf-5d0da593fc6e)
+bash
+Copy
+Edit
+python app.py
+Open browser and access: http://127.0.0.1:5000
 
