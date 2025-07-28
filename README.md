@@ -1,5 +1,6 @@
 Network Load Balancer Simulator
-A Python-based project that simulates how a network load balancer works by distributing client requests to multiple backend servers using different algorithms. It is designed to provide an interactive learning experience for understanding how load balancing improves performance and fault tolerance.
+A Python-based project that simulates how a network load balancer works by distributing client requests to multiple backend servers using different algorithms.
+It is designed to provide an interactive learning experience for understanding how load balancing improves performance and fault tolerance.
 
 Features
 Implements multiple load balancing algorithms:
@@ -21,7 +22,8 @@ Uses multithreading to handle concurrent client-server communication
 Maintains real-time logs for traffic and server status
 
 Motivation
-This project was developed as part of our academic work to gain a practical understanding of load balancing concepts. It bridges the gap between theoretical networking knowledge and its real-world applications in modern distributed systems.
+This project was developed as part of our academic work to gain a practical understanding of load balancing concepts.
+It bridges the gap between theoretical networking knowledge and its real-world applications in modern distributed systems.
 
 Technologies Used
 Python 3 for core simulation logic
@@ -35,22 +37,17 @@ Threading & Logging modules in Python for concurrency and monitoring
 How to Run
 Clone the repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/<your-username>/Network-Load-Balancer.git
 cd Network-Load-Balancer
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install flask
 Run the application
 
-bash
-Copy
-Edit
-python app.py
-Open browser and access: http://127.0.0.1:5000
 
+python app.py
+Open your browser and go to
+
+http://127.0.0.1:5000
