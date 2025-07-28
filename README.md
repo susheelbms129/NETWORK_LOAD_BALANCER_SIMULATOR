@@ -35,19 +35,24 @@ HTML + Tailwind CSS for the front-end UI
 Threading & Logging modules in Python for concurrency and monitoring
 
 How to Run
-Clone the repository
 
+Clone the repository
 
 git clone https://github.com/<your-username>/Network-Load-Balancer.git
 cd Network-Load-Balancer
+
 Install dependencies
 
 
 pip install flask
+
+
 Run the application
 
 
 python app.py
+
+
 Open your browser and go to
 
 http://127.0.0.1:5000
