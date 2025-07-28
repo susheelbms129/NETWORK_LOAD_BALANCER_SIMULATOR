@@ -38,7 +38,7 @@ How to Run
 
 Clone the repository
 
-git clone https://github.com/<your-username>/Network-Load-Balancer.git
+git clone https://github.com/susheelbms-129/NETWORK_LOAD_BALANCER_SIMULATOR.git
 cd Network-Load-Balancer
 
 Install dependencies
